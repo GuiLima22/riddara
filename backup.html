@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="form">
+        <form>
+            <h1>Contate-nos</h1>
+            <div id="form-about-selection">
+                <button type="button" id="form-about-button">Motivo</button>
+                <div class="dropdown-content ">
+                    <button type="button">Motivo</button>
+                    <button type="button">Orçamento</button>
+                    <button type="button">Test-Drive</button>
+                    <button type="button">Mais Informações</button>
+                </div>
+            </div>
+            <input type="text" placeholder="Seu Nome" class="first-form-input">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Telefone">
+            <input type="text" placeholder="Cidade">
+            <textarea name="mensagem" placeholder="Nos envie sua mensagem"></textarea>
+            <button id="submit-button">Enviar</button>
+        </form>
+        <button id="quit-form">X</button>
+    </div>
+    <header>
+        <div id="header-main-div">
+            <nav id="header-menu">
+                <ul>
+                    <li id="contact">Contato</li>
+                </ul>
+            </nav>
+            <div id="header-logo-container">
+                <a id="header-logo-riddara" href="https://www.riddara.com/" target="_blank">
+                    <img src="./media/imgs/riddara/logo-white.png" alt="logo-riddara">
+                </a>
+                <a id="header-logo-timber" href="https://grupotimber.com.br/timber/" target="_blank">
+                    <img src="./media/imgs/timber/logo/png/logo-white.png" alt="logo-timber">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="banner-container">
+        <video autoplay loop muted>
+            <source src="./media/videos/banner-principal.webm" type="video/webm">
+        </video>
+        <div id="banner-text">
+            <img src="./media/imgs/rd6/logo.svg" alt="Riddara RD6">
+            <h2>Mais Que Uma Pickup.</h2>
+        </div>
+    </section>
+    <section id="side_by_side-container">
+        <div id="left-section" class="side_by_side-section">
+            <img src="./media/imgs/rd6/interior/interior-01.webp" alt="Interior-01">
+            <div>
+                <p class="text-left">Equipada com inteligência e conforto</p>
+            </div>
+        </div>
+        <div id="right-section" class="side_by_side-section">
+            <img src="./media/imgs/rd6/exterior/exterior-03.jpeg" alt="Exterior-03">
+            <div>
+                <p class="text-right">Design pensado na sua imaginação</p>
+            </div>
+        </div>
+    </section>
+    <section id="topics_01-section">
+        <div id="topic_01-div-left" class="topics_01-div">
+            <h2>100% Elétrica</h2>
+            <h3>Controle de Energia Variável</h3>
+            <div>
+                <h4>Aceleração Extrema</h4>
+                <p>0 a 100km/h em 7,3 segundos, para uma saída rápida</p>
+            </div>
+            <div>
+                <h4>Controle Inteligente</h4>
+                <p>Feito pela Geely Holding, um sistema de controle inteligente estável entrega uma experiência no
+                    volante de uma SUV 100% elétrica</p>
+            </div>
+        </div>
+        <div id="topic_01-div-center" class="topics_01-div">
+            <h2>Destaque das Principais Funções</h2>
+            <h3>Carga Inteligente</h3>
+            <p>6kW/200V de descarregamento em todos os cenários, ficando à frente nas categorias Pickup e SUV dessa
+                faixa de preço, permitindo o uso de funções elétrica a qualquer momento e em qualquer lugar.</p>
+        </div>
+        <div id="topic_01-div-right" class="topics_01-div">
+            <h2>Uma Pickup para Tudo</h2>
+            <h3>Confortável, Compatível & Segura</h3>
+            <div>
+                <h4>Design Refinado e Interna Espaçosa</h4>
+                <p>Sinta-se imerso em uma cabine moderna e acolchegante equipada com mais avançados recursos
+                    tecnológicos</p>
+            </div>
+            <div>
+                <h4>Pensada para a Segurança</h4>
+                <p>Proteção Multidimensional que te deixa livre de preocupações</p>
+            </div>
+        </div>
+    </section>
+    <section id="color_slider-section">
+        <div id="color_slider-left-content">
+            <div id="color_slider-car-div">
+                <img class="color_slider-car-side selected-car"
+                    src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-yellow.webp" alt="yellow">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-white.webp"
+                    alt="white">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-silver.webp"
+                    alt="silver">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-grey.webp"
+                    alt="grey">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-green.webp"
+                    alt="green">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-blue.webp"
+                    alt="blue">
+                <img class="color_slider-car-side" src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-black.webp"
+                    alt="black">
+            </div>
+            <nav id="color_slider-color-nav">
+                <div class="color_slider-button selected-color" id="color_slider-button-yellow" data-name="0-yellow">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-white" data-name="1-white">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-silver" data-name="2-silver">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-grey" data-name="3-grey">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-green" data-name="4-green">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-blue" data-name="5-blue">
+                    <div></div>
+                </div>
+                <div class="color_slider-button" id="color_slider-button-black" data-name="6-black">
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+        <div id="color_slider-right-content">
+            <div id="colored-polygon" class="selected-polygon-color"></div>
+            <div id="color_slider-text-div">
+                <p class="color_slider-text selected-text">
+                    01. ADAPTÁVEL A DIVERSAS CONDIÇÕES DE CARGA E TERRENOS
+                </p>
+                <p class="color_slider-text">
+                    02. SUSPENÇÃO INDEPENDENTE MACPHERSON NA FRENTE E SUSPENÇÃO INDEPENDENTE MULTI-LINK NA TRAZEIRA
+                </p>
+                <p class="color_slider-text">
+                    03. CENTRO DE GRAVIDADE BAIXO COM UMA IMPRESSIONANTE DISTÂNCIA DO SOLO
+                </p>
+                <p class="color_slider-text">
+                    04. COMPRIMENTO TOTAL DE 5,26 METROS, TORNANDO AS CURVAS MAIS ÁGEIS E FÁCEIS
+                </p>
+                <p class="color_slider-text">
+                    05. COMPRIMENTO TOTAL DE 5,26 METROS, TORNANDO AS CURVAS MAIS ÁGEIS E FÁCEIS
+                </p>
+                <p class="color_slider-text">
+                    06. ASSISTENTE DE CONDUÇÃO COM FARÓIS ADB MATRIX LED
+                </p>
+                <p class="color_slider-text">
+                    07. PARA-CHOQUE DIANTEIRO, CAPÔ E LIMPADORES DESENVOLVIDOS VISANDO MAIOR SEGURANÇA
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="test_drive-section">
+        <div id="test_drive-button-div">
+            <button id="test_drive-button-01">
+                Agende agora o seu Test-Drive!
+            </button>
+            <button id="test_drive-button-02">
+                * Para mais informações, entre em contato clicando aqui
+            </button>
+        </div>
+        <div id="test_drive-img-div">
+            <img src="./media/imgs/rd6/colors/side/luxury/rd6-side-L-white.webp" alt="white">
+        </div>
+
+    </section>
+    <section id="make_your_deal-section">
+        <div>
+            <button id="make_your_deal">Faça seu Orçamento!</button>
+            <p>A melhor solução para conforto da família e trabalho pesado</p>
+        </div>
+        <img src="./media/imgs/rd6/exterior/exterior-04.webp" alt="">
+    </section>
+    <section id="safety-section">
+        <h2>Segurança 360°</h2>
+        <div id="safety-text-div">
+            <div>
+                <div class="safety-text-container safety-text-selected">
+                    <h3>Proteção Contra Impacto Lateral</h3>
+                    <p>Soleira de liga de alumínio de oito seções + tecnologia de conexão híbrida aço-alumínio</p>
+                    <p>Barreira deformável móvel + teste de impacto no pilar lateral</p>
+                </div>
+                <div class="safety-text-container">
+                    <h3>Estrutura da Carroceria</h3>
+                    <p>66% de aço de alta resistência</p>
+                    <p>Resistência à torção de 30.300 N·m</p>
+                    <p>Rigidez excepcional da estrutura interna integrada</p>
+                </div>
+                <div class="safety-text-container">
+                    <h3>Sistema de Frenagem de Alta Eficiência</h3>
+                    <p>Quatro discos de freio ventilados</p>
+                    <p>Taxa de aceleração de pressão de frenagem ultrarrápida de 150ms, três vezes mais rápida que
+                        frenagem
+                        hidráulica convencional</p>
+                    <p>Frenagem assistida por energia</p>
+                </div>
+            </div>
+            <div id="safety-nav-button">
+                <button class="safety-button" id="safety-left-button">v</button>
+                <button class="safety-button" id="safety-right-button">v</button>
+            </div>
+        </div>
+        <div id="safety-imgs-div">
+            <img src="./media/imgs/rd6/colors/angled/standard/rd6-angled-S-white-adj.png" alt="white"
+                class="car-angled-color car-angled-color-selected">
+            <img src="./media/imgs/rd6/colors/angled/standard/rd6-angled-S-black-adj.png" alt="black"
+                class="car-angled-color">
+            <img src="./media/imgs/rd6/colors/angled/standard/rd6-angled-S-blue-adj.png" alt="blue"
+                class="car-angled-color">
+        </div>
+    </section>
+    <footer>
+        <div id="footer-button-div">
+            <button id="make_your_deal_footer">Peça seu Orçamento!</button>
+            <button id="test-driver_footer">Marque seu Test-Drive!</button>
+        </div>
+        <div id="footer-informations">
+            <a href="https://grupotimber.com.br/timber/"><img src="./media/imgs/timber/logo/svg/logo-black.svg"
+                    alt=""></a>
+            <div id="social-media-content">
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-facebook"
+                    href="https://www.facebook.com/" target="_self" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-facebook" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="0 0 24 24">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-instagram"
+                    href="https://www.instagram.com/" target="_self" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-instagram" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-linkedin"
+                    href="https://www.linkedin.com/company/timber-forest-equipamentos" target="_self" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-linkedin" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="-4 -2 32 32">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="breakdance-link bde-social-icons__icon-wrapper bde-social-icons__icon-youtube"
+                    href="https://www.youtube.com/@GrupoTimber" target="_self" data-type="url">
+
+                    <!--a href="" class="bde-social-icons__icon-wrapper bde-social-icons__icon-youtube" -->
+                    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" width="2vw" viewBox="0 0 24 24">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <p id="footer-last-link">©2023 Grupo Timber. Todos os direitos reservados. Desenvolvido por <a
+                    href="https://www.linkedin.com/in/luis-guilherme-lima-8486a4120/" target="_blank">Luis Guilherme
+                    Lima</a></p>
+        </div>
+    </footer>
+    <style>
+        /* global */
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        :root {
+            --mixed-white: rgba(255, 255, 255, 0.6);
+            --mixed-black: rgba(0, 0, 0, 0.4);
+            --green: #3B4C36;
+            --grey-01: #777777;
+            --border-angled: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+
+            --color-slider-yellow: #B4A67B;
+            --color-slider-white: #B2B8BF;
+            --color-slider-silver: #8B9097;
+            --color-slider-grey: #696E78;
+            --color-slider-green: #86967A;
+            --color-slider-blue: #092C50;
+            --color-slider-black: #1F2125;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        }
+
+        html {
+            font-size: 62.5%;
+            overflow-x: hidden;
+        }
+
+        html::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+
+        /* header */
+
+        header {
+            width: 100vw;
+            height: 12vh;
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+        }
+
+        #header-main-div {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #header-menu,
+        #header-menu ul {
+            height: 100%;
+            font-size: 2rem;
+        }
+
+        #header-menu ul li {
+            transition: 0.2s;
+        }
+
+        #header-menu ul li:hover {
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        #header-logo-container {
+            height: 100%;
+            display: flex;
+            gap: 8rem;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.7;
+        }
+
+        #header-menu ul {
+            display: flex;
+            list-style-type: none;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+            gap: 1.2rem;
+            color: white;
+        }
+
+        #header-logo-riddara {
+            height: 15%;
+            flex: 0 0 auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #header-logo-timber {
+            height: 30%;
+            color: white;
+        }
+
+        #header-logo-riddara img,
+        #header-logo-timber img {
+            height: 100%;
+            width: auto;
+        }
+
+
+        /* banner */
+
+        #banner-container {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            background-color: black;
+        }
+
+        #banner-container video {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            opacity: 0.5;
+        }
+
+        #banner-text {
+            position: absolute;
+            bottom: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+        }
+
+        #banner-text img {
+            width: 40%;
+            height: auto;
+            position: static;
+        }
+
+        #banner-text h2 {
+            position: static;
+            color: white;
+        }
+
+        img {
+            height: 100px;
+            width: 200px;
+        }
+
+        #banner-text {
+            opacity: 0.8;
+        }
+
+
+        /* side by side */
+
+        #side_by_side-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: black;
+        }
+
+        .side_by_side-section {
+            height: 100%;
+            width: 50%;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .side_by_side-section img {
+            position: absolute;
+            height: 100%;
+            width: auto;
+            opacity: 0.6;
+        }
+
+        .side_by_side-section div {
+            position: absolute;
+            height: 70%;
+            width: 70%;
+            border: 2px solid var(--mixed-white);
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .side_by_side-section div p {
+            display: block;
+            position: absolute;
+            bottom: 5%;
+            color: rgba(255, 255, 255, 0.7);
+            width: 45%;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        .text-left {
+            left: 5%;
+        }
+
+        .text-right {
+            right: 5%;
+            text-align: right;
+        }
+
+
+        /* topics 01 */
+
+        #topics_01-section {
+            width: 100vw;
+            height: auto;
+            min-height: 25vw;
+            display: flex;
+            justify-content: center;
+            background-color: #D9D9D9;
+        }
+
+        .topics_01-div {
+            width: 30%;
+            padding: 5rem 5%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 5rem 0;
+        }
+
+        .topics_01-div h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--green);
+        }
+
+        .topics_01-div h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--grey-01)
+        }
+
+        .topics_01-div h4 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--green);
+        }
+
+        .topics_01-div p {
+            font-size: 1.4rem;
+            margin-top: 5px;
+            font-weight: 600;
+            color: var(--grey-01);
+        }
+
+        #topic_01-div-center {
+            border-left: 1px solid var(--mixed-black);
+            border-right: 1px solid var(--mixed-black);
+        }
+
+
+        /* color slider section */
+
+
+
+        #color_slider-section {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(255, 255, 255);
+        }
+
+        #color_slider-left-content,
+        #color_slider-right-content {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            background-color: #b4a67b70;
+            transition: 0.5s;
+        }
+
+        #color_slider-car-div {
+            position: relative;
+            width: 100%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .color_slider-car-side {
+            position: absolute;
+            width: 80%;
+            height: auto;
+            opacity: 0;
+
+            transition: 1s;
+        }
+
+        #color_slider-color-nav {
+            position: relative;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .color_slider-button {
+            height: 6vh;
+            width: 6vh;
+            border-radius: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        .color_slider-button div {
+            height: 80%;
+            width: 80%;
+            border-radius: 800px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .selected-car {
+            opacity: 1;
+        }
+
+        .selected-color {
+            border: 1px solid var(--mixed-black);
+        }
+
+        #color_slider-button-yellow div {
+            background-color: var(--color-slider-yellow);
+        }
+
+        #color_slider-button-white div {
+            background-color: var(--color-slider-white);
+        }
+
+        #color_slider-button-silver div {
+            background-color: var(--color-slider-silver);
+        }
+
+        #color_slider-button-grey div {
+            background-color: var(--color-slider-grey);
+        }
+
+        #color_slider-button-green div {
+            background-color: var(--color-slider-green);
+        }
+
+        #color_slider-button-blue div {
+            background-color: var(--color-slider-blue);
+        }
+
+        #color_slider-button-black div {
+            background-color: var(--color-slider-black);
+        }
+
+        #colored-polygon {
+            background-color: var(--color-slider-yellow);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            clip-path: polygon(0 100%, 100% 0, 100% 100%);
+
+            transition: 0.5s;
+        }
+
+        #color_slider-text-div {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .color_slider-text {
+            display: block;
+            font-size: 4rem;
+            text-align: right;
+            width: 40%;
+            height: 50%;
+            position: absolute;
+            bottom: 0;
+            right: -100%;
+
+            opacity: 0;
+
+            transition: 0.2s;
+        }
+
+        .selected-text {
+            bottom: 0;
+            right: 5%;
+
+            opacity: 1;
+        }
+
+
+        /* test drive */
+
+        #test_drive-section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background-color: #D9D9D9;
+
+            overflow: hidden;
+        }
+
+        #test_drive-button-div {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3%;
+        }
+
+        #test_drive-button-01 {
+            width: 60%;
+            font-size: 2.5rem;
+            padding: 2rem;
+            border: none;
+            background-color: var(--green);
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+
+            transition: 0.2s;
+
+            clip-path: polygon(0 0, 95% 0, 100% 25%, 100% 0, 100% 100%, 5% 100%, 0 75%, 0 100%);
+        }
+
+        #test_drive-button-01:hover {
+            color: white;
+        }
+
+        #test_drive-button-02 {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.75);
+        }
+
+        #test_drive-button-02:hover {
+            text-decoration: underline;
+        }
+
+        #test_drive-img-div {
+            height: 100%;
+            width: 30%;
+            display: flex;
+            align-items: center;
+        }
+
+        #test_drive-section img {
+            height: 50%;
+            width: auto;
+            transform: scaleX(-1);
+        }
+
+
+        /* make your deal */
+
+        #make_your_deal-section {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        }
+
+        #make_your_deal-section img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            opacity: 0.6;
+        }
+
+        #make_your_deal-section div {
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+        }
+
+        #make_your_deal-section button {
+            border: none;
+            width: 25%;
+            font-size: 2.5rem;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.75);
+
+            position: absolute;
+            bottom: 17%;
+            left: 8%;
+
+            clip-path: polygon(0 0, 95% 0, 100% 25%, 100% 0, 100% 100%, 5% 100%, 0 75%, 0 100%);
+
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        #make_your_deal-section button:hover {
+            background-color: var(--green);
+            color: white;
+            font-weight: 600;
+        }
+
+        #make_your_deal-section p {
+            font-size: 3.5rem;
+            width: 25%;
+            text-align: right;
+            color: rgba(255, 255, 255, 0.75);
+
+            position: absolute;
+            top: 17%;
+            right: 8%;
+        }
+
+
+        /* safety */
+
+        #safety-section {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: rgb(171, 172, 175);
+
+            transition: 0.5s;
+        }
+
+        #safety-section h2 {
+            position: absolute;
+            left: 50%;
+            top: 15%;
+            transform: translate(-50%, 0);
+
+            font-size: 4rem;
+            font-weight: normal;
+
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        #safety-text-div {
+            width: 25%;
+            height: 50%;
+            background-color: rgba(0, 0, 0, 0.35);
+            color: rgba(255, 255, 255, 0.8);
+
+            position: relative;
+
+            clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 0, 100% 100%, 15% 100%, 0 85%, 0 100%);
+        }
+
+        .safety-text-container {
+            width: 80%;
+            font-size: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            opacity: 0;
+
+            transition: 0.5s;
+        }
+
+        .safety-text-container h3 {
+            font-size: 2.25rem;
+        }
+
+        .safety-text-selected {
+            opacity: 1;
+        }
+
+        #safety-nav-button {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%);
+            display: flex;
+            gap: 20%;
+        }
+
+        .safety-button {
+            border: none;
+            border-radius: 800px;
+            width: 5vh;
+            height: 5vh;
+            font-size: 2vh;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: rgba(255, 255, 255, 0.7);
+
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        .safety-button:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+        }
+
+        #safety-left-button {
+            transform: rotate(90deg);
+        }
+
+        #safety-right-button {
+            transform: rotate(-90deg);
+        }
+
+        #safety-imgs-div {
+            position: relative;
+            width: 35%;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #safety-imgs-div img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+
+            transition: 1s;
+
+            opacity: 0;
+        }
+
+        .car-angled-color-selected {
+            opacity: 1 !important;
+        }
+
+
+        /* footer */
+
+        footer {
+            width: 100vw;
+            height: 100vh;
+            background-color: #D9D9D9;
+        }
+
+        #footer-button-div {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+        }
+
+        #footer-button-div button {
+            width: 25%;
+            height: 15%;
+            border: none;
+            font-size: 2rem;
+            background-color: var(--green);
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+
+            clip-path: polygon(0 0, 95% 0, 100% 20%, 100% 100%, 5% 100%, 0 80%);
+
+            transition: 0.2s;
+        }
+
+        #footer-button-div button:hover {
+            color: white;
+            font-weight: bolder;
+        }
+
+        #footer-button-div::after {
+            content: "";
+            height: 1px;
+            width: 60vw;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            bottom: 0;
+        }
+
+        #footer-informations {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 3%;
+            gap: 1vh;
+            position: relative;
+        }
+
+        #footer-informations img {
+            opacity: 0.6;
+        }
+
+        #social-media-content {
+            display: flex;
+            gap: 2vw;
+        }
+
+        .footer-svg {
+            opacity: 0.6;
+        }
+
+        #footer-last-link {
+            font-size: 1.8vh;
+            position: absolute;
+            bottom: 5vh;
+            color: black;
+            opacity: 0.6;
+        }
+
+        #footer-last-link a {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        #footer-last-link a:hover {
+            text-decoration: underline;
+        }
+
+        #footer-last-link a:visited {
+            color: black;
+        }
+
+
+        /* formulário */
+
+        #form {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            z-index: 3;
+
+            display: none;
+        }
+
+        #form form {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3vh;
+            background-color: #3B4C36;
+            padding: 3vw;
+
+        }
+
+        #form form h1 {
+            color: rgba(236, 236, 236, 0.9);
+            ;
+        }
+
+        #form form input:focus,
+        #form form textarea:focus {
+            outline: none;
+        }
+
+        #form form input {
+            font-size: 2vh;
+            width: 100%;
+            height: 6vh;
+            padding: 1vw;
+            background-color: rgba(236, 236, 236, 0.9);
+            border: none;
+        }
+
+        #form form textarea {
+            font-size: 2vh;
+            width: 100%;
+            height: 12vh;
+            padding: 1vw;
+            background-color: rgba(236, 236, 236, 0.9);
+            border: none;
+        }
+
+        #submit-button {
+            height: 6vh;
+            width: 30%;
+            align-self: flex-end;
+            background-color: rgba(236, 236, 236, 0.9);
+            border: none;
+            font-size: 2vh;
+        }
+
+        .form-active {
+            display: flex !important;
+            align-items: flex-start;
+            gap: 2vw;
+        }
+
+        #quit-form {
+            color: rgb(255, 255, 255);
+            background-color: #3b4c36;
+            border: none;
+            width: 3vw;
+            height: 3vw;
+            border-radius: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-top: 2vw;
+            cursor: pointer;
+
+            transition: 0.2s
+        }
+
+        #form-about-selection {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        #form-about-button {
+            width: 100% !important;
+            height: 6vh;
+            align-self: flex-end;
+            background-color: rgba(236, 236, 236, 0.9);
+            color: rgb(90, 90, 90);
+            border: none;
+            font-size: 2vh;
+            cursor: pointer;
+            padding: 1vw;
+            text-align: left;
+        }
+
+        #form-about-button:hover {
+            background-color: rgb(163, 163, 163);
+            color: rgb(0, 0, 0);
+        }
+
+        .dropdown-content {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+
+        }
+
+        .first-form-input {
+            margin-top: 4vh;
+        }
+
+        .dropdown-content button {
+            width: 100%;
+            height: 6vh;
+            align-self: flex-end;
+            background-color: rgba(255, 255, 255);
+            border: none;
+            font-size: 2vh;
+            cursor: pointer;
+            text-align: left;
+            padding: 2vh;
+        }
+
+        .dropdown-content button:hover {
+            background-color: rgb(163, 163, 163);
+        }
+
+        #quit-form:hover {
+            font-size: 2rem;
+        }
+
+        .form-active~header {
+            display: none;
+        }
+    </style>
+    <script>
+        const colors = {
+            color: [
+                color__yellow = '#B4A67B',
+                color__white = '#B2B8BF',
+                color__silver = '#8B9097',
+                color__grey = '#696E78',
+                color__green = '#86967A',
+                color__blue = '#092C50',
+                color__black = '#1F2125',
+            ],
+            color__low_opacity: [
+                color__yellow__low_opacity = 'rgba(180, 166, 123, 0.4)',
+                color__white__low_opacity = 'rgba(178, 184, 191, 0.4)',
+                color__silver__low_opacity = 'rgba(139, 144, 151, 0.4)',
+                color__grey__low_opacity = 'rgba(105, 110, 120, 0.4)',
+                color__green__low_opacity = 'rgba(134, 150, 122, 0.4)',
+                color__blue__low_opacity = 'rgba(9, 44, 80, 0.4)',
+                color__black__low_opacity = 'rgba(31, 33, 37, 0.4)',
+            ],
+            color_safety: [
+                color__white = 'rgb(171, 172, 175)',
+                color__black = 'rgb(81, 82, 83)',
+                color__blue = 'rgb(70, 83, 103)',
+            ]
+        }
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const colorButton = document.querySelectorAll('.color_slider-button');
+            const colorCar = document.querySelectorAll('.color_slider-car-side');
+            const colorText = document.querySelectorAll('.color_slider-text');
+
+            colorButton.forEach(color => {
+                color.addEventListener('click', function () {
+                    const selectedColor = document.querySelector('.color_slider-button.selected-color');
+                    const selectedCar = document.querySelector('.color_slider-car-side.selected-car');
+                    const selectedText = document.querySelector('.color_slider-text.selected-text');
+
+                    const data = this.getAttribute('data-name')
+                    const i = Number(data.slice(0, data.indexOf("-")))
+
+                    if (selectedColor) {
+                        selectedColor.classList.remove('selected-color');
+                        selectedCar.classList.remove('selected-car');
+                        selectedText.classList.remove('selected-text');
+                    }
+
+                    this.classList.add('selected-color');
+                    console.log(this.childNodes);
+                    colorCar[i].classList.add('selected-car');
+                    colorText[i].classList.add('selected-text');
+
+                    const bgColor = colors.color[i];
+
+                    const triangle = document.getElementById('colored-polygon');
+                    const textNav = document.getElementById('color_slider-text-div');
+                    triangle.style.backgroundColor = bgColor;
+                    triangle.parentElement.style.backgroundColor = colors.color__low_opacity[i];
+                    colorButton[0].parentNode.parentElement.style.backgroundColor = colors.color__low_opacity[i];
+
+
+
+                    bgColor === colors.color[5] || bgColor === colors.color[6] ? textNav.style.color = 'rgba(255, 255, 255, 0.5)' : textNav.style.color = 'rgba(0, 0, 0, 0.5)';
+                });
+            });
+
+            const leftButton = document.getElementById('safety-left-button');
+            const rightButton = document.getElementById('safety-right-button');
+            const safetyTexts = document.querySelectorAll('.safety-text-container');
+            const safetyCars = document.querySelectorAll('.car-angled-color');
+            const safetyBG = document.getElementById('safety-section')
+
+            let currentIndex = 0;
+
+            leftButton.addEventListener('click', function () {
+                console.log('botão esquerdo apertado')
+                safetyTexts[currentIndex].classList.remove('safety-text-selected');
+                safetyCars[currentIndex].classList.remove('car-angled-color-selected');
+                currentIndex = (currentIndex - 1 + safetyTexts.length) % safetyTexts.length;
+                safetyTexts[currentIndex].classList.add('safety-text-selected');
+                safetyCars[currentIndex].classList.add('car-angled-color-selected');
+                safetyBG.style.backgroundColor = colors.color_safety[currentIndex];
+            });
+
+            rightButton.addEventListener('click', () => {
+                safetyTexts[currentIndex].classList.remove('safety-text-selected');
+                safetyCars[currentIndex].classList.remove('car-angled-color-selected');
+                currentIndex = (currentIndex + 1) % safetyTexts.length;
+                safetyTexts[currentIndex].classList.add('safety-text-selected');
+                safetyCars[currentIndex].classList.add('car-angled-color-selected');
+                safetyBG.style.backgroundColor = colors.color_safety[currentIndex];
+            });
+
+
+
+
+
+            document.getElementById('form-about-button').addEventListener('click', function () {
+                const dropdownContent = this.nextElementSibling;
+                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+            });
+
+            // Optional: Close the dropdown if the user clicks outside of it
+            window.onclick = function (event) {
+                if (!event.target.matches('#form-about-button')) {
+                    const dropdowns = document.getElementsByClassName('dropdown-content');
+                    for (let i = 0; i < dropdowns.length; i++) {
+                        let openDropdown = dropdowns[i];
+                        if (openDropdown.style.display === 'block') {
+                            openDropdown.style.display = 'none';
+                        }
+                    }
+                }
+            }
+
+            const dropdownItems = document.querySelectorAll('.dropdown-content button');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    const button = document.getElementById('form-about-button')
+                    button.innerText = this.innerText;
+                    button.style.color = "black"
+                    this.parentElement.style.display = 'none';  // Hide dropdown after selection
+
+                });
+            });
+
+
+            const quitForm = document.getElementById('quit-form')
+            quitForm.addEventListener('click', function () {
+                document.getElementById('form').classList.remove('form-active')
+            })
+
+            const contactUs = document.getElementById('contact');
+            contactUs.addEventListener('click', function () {
+                document.getElementById('form').classList.add('form-active')
+            })
+
+            const makeDealContact = [
+                document.getElementById('make_your_deal'),
+                document.getElementById('make_your_deal_footer')
+            ]
+
+            const testDriveContact = [
+                document.getElementById('test_drive-button-01'),
+                document.getElementById('test-driver_footer')
+            ]
+
+            makeDealContact.forEach(button => {
+                button.addEventListener('click', function () {
+                    document.getElementById('form').classList.add('form-active')
+                    const text = document.getElementById('form-about-button')
+                    text.innerText = 'Orçamento'
+                    text.style.color = 'black'
+                })
+            })
+
+            testDriveContact.forEach(button => {
+                button.addEventListener('click', function () {
+                    document.getElementById('form').classList.add('form-active')
+                    const text = document.getElementById('form-about-button')
+                    text.innerText = 'Test-Drive'
+                    text.style.color = 'black'
+                })
+            })
+
+            document.getElementById('test_drive-button-02').addEventListener('click', function () {
+                document.getElementById('form').classList.add('form-active')
+                const text = document.getElementById('form-about-button')
+                text.innerText = 'Mais Informações'
+                text.style.color = 'black'
+            })
+        });
+    </script>
+</body>
+
+</html>
