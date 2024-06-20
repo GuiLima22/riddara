@@ -753,23 +753,14 @@ footer {
 
 #footer-last-link {
     font-size: 1.8vh;
-    position: absolute;
     bottom: 5vh;
     color: black;
     opacity: 0.6;
 }
 
-#footer-last-link a {
+#footer-last-link span {
     font-weight: bold;
     text-decoration: none;
-    color: black;
-}
-
-#footer-last-link a:hover {
-    text-decoration: underline;
-}
-
-#footer-last-link a:visited {
     color: black;
 }
 
